@@ -7,6 +7,7 @@
         width: 100%;
         border-radius: 0;
         padding: 1.1rem 1.6rem;
+        line-height: 1.8rem;
         font-weight: 600;
         &:hover {
             background-color: rgba(22, 24, 35, 0.03);
@@ -15,4 +16,21 @@
 }
 .menu-poper {
     padding-bottom: 0.8rem;
+}
+.header {
+    position: relative;
+    height: 5rem;
+    margin-top: -0.8rem;
+}
+.back-btn {
+    width: 5rem;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
